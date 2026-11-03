@@ -1,6 +1,6 @@
 {
   "name": "cm-agent",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Detects the CMS a project publishes to, writes a machine-readable cms-publish.json spec describing its content types, fields, auth, and transport, then publishes content through that spec. Also humanizes AI-sounding drafts before they go out.",
   "author": {
     "name": "Shawn Sandy",

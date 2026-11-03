@@ -11,6 +11,9 @@ Plugin versions and the marketplace catalog version move together — see
 
 ### Added
 
+- `voice-guide-interview` skill: walks a user from writers they admire to a
+  finished voice guide, using a locked-format template with a rotating
+  structure menu.
 - CI workflow (`.github/workflows/ci.yml`): validates the marketplace and runs
   every script self-test on pull requests and pushes to `main`.
 - `scripts/version.mjs --check-bumped <base-ref>`: fails when a pull request
