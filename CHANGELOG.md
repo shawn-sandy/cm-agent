@@ -11,8 +11,9 @@ Plugin versions and the marketplace catalog version move together — see
 
 ### Added
 
-- `writing-in-shawns-voice` skill: drafts and rewrites content in Shawn's voice
-  from a saved voice guide with a rotating structure menu.
+- `writing-in-a-saved-voice` skill: drafts and rewrites content from a voice guide
+  saved in the project's `voice/` folder, rotating structures. Ships an example
+  guide as an asset.
 - `voice-guide-interview` skill: walks a user from writers they admire to a
   finished voice guide, using a locked-format template with a rotating
   structure menu.

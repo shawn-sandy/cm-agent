@@ -50,7 +50,7 @@ on its own.
 | `publishing-content`    | Maps a draft onto the spec, dry-runs, confirms, publishes                   | Published content, plus its URL or ID                |
 | `humanize-text`         | Scans a draft for AI writing tells and rewrites them out                    | Humanized text, plus a `HUMANIZE REPORT` of findings |
 | `voice-guide-interview` | Guides a user from admired writers to a finished voice guide                | A completed voice guide                              |
-| `writing-in-shawns-voice` | Drafts and rewrites content in Shawn's voice from a saved guide           | A draft that follows the voice guide                 |
+| `writing-in-a-saved-voice` | Drafts and rewrites content from a saved voice guide in `voice/`         | A draft that follows the chosen voice guide          |
 
 You do not invoke them by name. Ask your agent "what CMS does this project
 use?", "publish this draft", or "make this sound less like AI", "help me define my writing voice", or "draft this in my voice" and the

@@ -60,7 +60,12 @@ Fold what they say back into the guide.
 
 ## Step 7 — Wrap up
 
-Save the guide as one file. Offer next steps: turn it into a reusable skill,
+Save the guide in the user's project at `voice/<owner-slug>.md`, for example
+`voice/shawn.md` or `voice/acme-corp.md`, creating the folder if needed. Never
+write into the plugin directory; updates would overwrite it. Tell the user the
+path, and that `writing-in-a-saved-voice` reads guides from that folder.
+
+Offer next steps: turn it into a reusable skill,
 create a blank copy of the template for other clients, or run a draft through
 `humanize-text` to catch AI-sounding phrases.
 
