@@ -17,9 +17,11 @@ first.
 
 ## Step 1 — Scope
 
-Ask two questions together: who is this voice for (the user, a creator, or a
-company), and which content types matter most (articles, posts, scripts,
-videos)? Keep a personal voice and client or brand voices in separate guides.
+Ask these together: who is this voice for (the user, a creator, or a company),
+which content types matter most (articles, posts, scripts, videos), who the
+reader is, and what the reader should be able to do after reading. Confirm the
+reader and goal before drafting; they fill the guide's required audience
+fields, so never guess them. Keep a personal voice and client or brand voices in separate guides.
 If a brand has existing guidelines, read them first and treat them as
 overrides.
 
