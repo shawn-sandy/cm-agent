@@ -38,7 +38,7 @@ Both routes read the same `skills/` directories. The `skills` CLI discovers them
 through `.claude-plugin/marketplace.json`, so there is one copy of every skill
 and no duplicated tree to keep in sync.
 
-## The four skills
+## The six skills
 
 The first three form a loop. Each one hands off to the next, and each is useful
 on its own.
@@ -49,9 +49,11 @@ on its own.
 | `writing-publish-specs` | Turns that report into a spec and validates it                              | `cms-publish.json` at the project root               |
 | `publishing-content`    | Maps a draft onto the spec, dry-runs, confirms, publishes                   | Published content, plus its URL or ID                |
 | `humanize-text`         | Scans a draft for AI writing tells and rewrites them out                    | Humanized text, plus a `HUMANIZE REPORT` of findings |
+| `voice-guide-interview` | Guides a user from admired writers to a finished voice guide                | A completed voice guide                              |
+| `writing-in-a-saved-voice` | Drafts and rewrites content from a saved voice guide in `voice/`         | A draft that follows the chosen voice guide          |
 
 You do not invoke them by name. Ask your agent "what CMS does this project
-use?", "publish this draft", or "make this sound less like AI" and the
+use?", "publish this draft", or "make this sound less like AI", "help me define my writing voice", or "draft this in my voice" and the
 descriptions route the request.
 
 `humanize-text` is independent of the spec — it edits prose and never touches
